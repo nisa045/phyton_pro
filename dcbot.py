@@ -155,9 +155,9 @@ async def on_ready():
 async def main():
     async with bot:
         await bot.add_cog(Music(bot))
-        await bot.start('token')
+        await bot.start('token') #buraya tokenı yazmak gerek.
 
 
 asyncio.run(main())
 
-bot.run("MTE1OTkyMTk0MTA0NjYyODM5Mg.G6jDzz.0IK5Uh7-lGWCMigHiWQ45Xw35RBqFwy05CxU4M")
+bot.run("token") #buraya da tokenı yazmak gerek.
